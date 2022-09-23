@@ -1,2 +1,6 @@
-# primeirog_3t
-Nome: Yasmin Cordeiro Nr: 34 
+# Terceiro Trimestre
+
+##Identificação
+Yasmin Cordeiro - Nr.34 
+
+##Conteúdo - HTML - CSS - JavaScript
