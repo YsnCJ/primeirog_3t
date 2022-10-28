@@ -26,7 +26,8 @@ function total(){
         document.write("Valor no mês " + i + " = " + m + "<br>");
         c = m;
     }
-    document.write("Montante: " + m);
+    document.getElementById("total").innerHTML = m;
+   //document.write("Montante: " + m);
 }
 function adicao(){
     let val1 = document.getElementById("v1").value;
