@@ -6,21 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro g</title>
     <script src="estudo.js"></script>
+    <link rel="stylesheet" href="geral.css">
 </head>
 <body>
-    Capital: <input id="capital" type="text"> <br>
-    Juros Mensais: <input id="juros" type="text"> <br>
-    Número de meses: <input id="meses" type="text"> <br>
-    <button onclick="total()">Calcular</button>
+    <div class="calc">
+        <div id="spTotal">
+
+            <span id="total">R$ 0,00</span>
+        </div>
+        Capital: <input id="capital" type="text"> <br>
+        Juros Mensais: <input id="juros" type="text"> <br>
+        Número de meses: <input id="meses" type="text"> <br>
+        <button onclick="total()">Calcular</button>
+    <div id="spLista"></div>
+    </div>
+    <span id="listaMe"s></span>
     <br><br><br>
     <span id="resultado"></span><br><br>
     valor 1: <input id="v1" type="text"><br>
     valor 2: <input id="v2" type="text"><br>
-     <button onclick="adicao()">Soma</button>
-     <button onclick="subtracao()">Subtração</button>
-     <button onclick="divisao()">Divisão</button>
-     <button onclick="multiplicacao()">Multiplicação</button>
-     <button onclick="porcentagem()">Porcentagem</button>
+    <button onclick="adicao()">Soma</button>
+    <button onclick="subtracao()">Subtração</button>
+    <button onclick="divisao()">Divisão</button>
+    <button onclick="multiplicacao()">Multiplicação</button>
+    <button onclick="porcentagem()">Porcentagem</button>
 </body>
+
 </html>
+
 <body>
