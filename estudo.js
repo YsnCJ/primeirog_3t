@@ -71,6 +71,24 @@ function total(){
           let r = Number(val1) * Number(p);
           document.getElementById("resultado").innerHTML = r;
           }
+          function calculaRaiz(){
+            let a = document.getElementById("a").value;
+            let b = document.getElementById("b").value;
+            let c = document.getElementById("c").value;
+            let delta = (b*b) - (4*a*c);
+            let raiz, x1, x2;
+            if(delta >= 0){
+              raiz = Math.sqr4t(delta);
+              x1 = ((-b) + raiz)/(2*a);
+              x1 = ((-b) - raiz)/(2*a);
+              raiz = "x1="+x1+" x2="+x2;
+            }else{
+              raiz = "Não possui raiz real";
+
+            }
+            document.getElementById("raiz").innerHTML = raiz;
+
+          }
     
 
     
